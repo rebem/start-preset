@@ -2,14 +2,20 @@
   "name": "start-rebem-preset",
   "version": "0.3.0",
   "description": "Start preset for reBEM",
-  "keywords": [ "start", "start-preset", "rebem" ],
+  "keywords": [
+    "start",
+    "start-preset",
+    "rebem"
+  ],
   "homepage": "https://github.com/rebem/start-preset",
   "repository": "rebem/start-preset",
   "maintainers": [
     "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
     "Denis Koltsov <iam@mistadikay.com> (https://github.com/mistadikay)"
   ],
-  "files": [ "build/" ],
+  "files": [
+    "build/"
+  ],
   "main": "build/index.js",
   "dependencies": {
     "start": "4.x.x",
@@ -25,7 +31,7 @@
     "start-mocha": "1.x.x",
     "start-istanbul": "1.x.x",
     "start-codecov": "1.x.x",
-    "babel-istanbul": "0.7.x"
+    "babel-istanbul": "0.12.0"
   },
   "devDependencies": {
     "start-babel-cli": "1.x.x",
